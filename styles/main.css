@@ -1,10 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
-/*home view*/
-.home-section-main{
-  background: url('../img/phone-girl-mainScreen-placeholder.png');
+/*Right Side Menu*/
+main{
+  position: relative;
+}
+.side-menu{
+  z-index: 100;
+  display: none;
+  position: absolute;
+  width: 250px;
   height: 100vh;
-  background-size: cover;
+  background: #e37401;
 }
-.info-section-right{
-  
+.side-menu-full{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.side-menu-full img{
+  width: 100px;
+  margin: 40px 40px 50px 10px;
+}
+.side-menu-full ul{
+  width: 100%;
+}
+.side-menu-full span{
+margin-left: 30px;
+}
+.side-menu-full li{
+  font-weight: bold;
+  color: white;
+  font-size: .9rem;
+  padding: 15px 0px;
+  transition: all .5s;
+  display: block;
+}
+.side-menu-full li:hover{
+  background: rgba(255,255,255, .14);
+}
+.shower{
+  display: block;
+}
+.hide-me{
+  display: none !important;
+}
+.show-me{
+  margin-left: 220px !important;
+}
+.show-me-200{
+  margin-left: 280px !important;
+}
+.dec-marg{
+  margin-left: -80px !important;
+}
+.orange-background{
+  background-color: #e37401 !important;
+}
+/*.hider{
+  display: none;
+}*/
