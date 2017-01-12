@@ -3,7 +3,7 @@ main{
   position: relative;
 }
 .side-menu{
-  z-index: 100;
+  z-index: 110;
   display: none;
   position: absolute;
   width: 250px;

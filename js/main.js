@@ -14,7 +14,7 @@ $( "#test" ).click(function() {
 });
 
 
-$(".main-header-container").hover(function(){
+$("#test").hover(function(){
     $('.burger-li').css("background-color", "#e37401");
     }, function(){
     $('.burger-li').css("background-color", "white");
