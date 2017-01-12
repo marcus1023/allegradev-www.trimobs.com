@@ -6,9 +6,7 @@ $( document ).ready(function() {
 
 $( "#test" ).click(function() {
   $('.side-menu').toggleClass( "shower");
-  $('.info-section-left').toggleClass("show-me");
   $('.main-header-container').toggleClass("show-me-200");
-  $('.info-section-right').toggleClass("dec-marg");
   $('.burger-li').toggleClass("orange-background");
   $('.scroller-nav').toggleClass("hide-me");
 });
