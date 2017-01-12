@@ -1,7 +1,12 @@
+
 <section class="home-full-body">
-  <video loop muted autoplay poster="img/dev-mountain-true-img.png" class="fullscreen-bg__video">
-      <source src="../video/13299272.mp4" type="video/mp4">
-  </video>
+
+  <section class="video-container">
+    <video loop muted autoplay poster="img/dev-mountain-true-img.png" id="glass" class="fullscreen-bg__video">
+        <source src="../video/13299272.mp4" type="video/mp4">
+    </video>
+  </section>
+
   <div class="main-header-container">
     <div id="test" class="main-hamburger-menu main-header-img">
       <ul>
@@ -17,8 +22,8 @@
       <div class="side-menu-full">
         <img  ui-sref="home"  src="img/menu-logo-1.png">
         <ul>
-          <li ui-sref="INICIO" ><span>INICIO</span></li>
-          <li ui-sref="DIGITALES" ><span>PARA PERSONAS DIGITALES</span></li>
+          <li ui-sref="INICIO" ng-click="$route.reload()" ><span>INICIO</span></li>
+          <li ui-sref="DIGITALES" ng-click="$route.reload()"><span>PARA PERSONAS DIGITALES</span></li>
           <li><span>NOSOTROS</span></li>
           <li><span>ESTEMOS EN CONTACTO</span></li>
         </ul>

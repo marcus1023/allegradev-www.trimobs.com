@@ -1,7 +1,10 @@
 <section class="home-full-body">
-  <video loop muted autoplay poster="img/dev-mountain-true-img.png" class="fullscreen-bg__video">
-      <source src="../video/13299272.mp4" type="video/mp4">
-  </video>
+  <section class="video-container">
+    <video loop muted autoplay poster="img/dev-mountain-true-img.png" id="glass" class="fullscreen-bg__video">
+        <source src="../video/13299272.mp4" type="video/mp4">
+    </video>
+  </section>
+
   <div class="main-header-container">
     <div id="test" class="main-hamburger-menu main-header-img">
       <ul >
@@ -14,31 +17,50 @@
   </div>
 
   <section class="home-section-main">
-
+    <section id="side-menu" class="side-menu">
+      <div class="side-menu-full">
+        <img  ui-sref="home"  src="img/menu-logo-1.png">
+        <ul>
+          <li ui-sref="INICIO" ><span>INICIO</span></li>
+          <li ui-sref="DIGITALES" ><span>PARA PERSONAS DIGITALES</span></li>
+          <li><span>NOSOTROS</span></li>
+          <li><span>ESTEMOS EN CONTACTO</span></li>
+        </ul>
+      </div>
+    </section>
     <div class="incio-info-box ">
         <h1>¡Bienvenidos los que crean!</h1>
-      <div class="incio-inner-box">
+      <div class="incio-inner-box digitales-options-outer">
         <p>Nos esforzamos día a día por crear productos de calidad 🙂 Conoce nuestras verticales de negocio y canales de comercialización.</p>
         <div class="digitales-options-box">
-          <div class="digitales-b-border"><img src="../img/sound-bars.png"> Verticales de Negocios</div>
-          <div> <img src="../img/sound-bars.png">Canales de Comercialización</div>
+          <div class="digitales-options-one digitales-b-border"><img src="../img/sound-bars.png"> Verticales de Negocios</div>
+          <div class="digitales-options-two"> <img src="../img/sound-bars.png">Canales de Comercialización</div>
         </div>
         <div class="digitales-catigories-one">
           <div >
-            <ul></ul>
+            <ul>
+              <li>E-learning y educación</li>
+              <li>Entretenimiento</li>
+              <li>Televisión</li>
+            </ul>
           </div>
-          <div ></div>
+          <div >
+            <ul>
+              <li>Apps</li>
+              <li> Web</li>
+              <li> Retail</li>
+            </ul></div>
         </div>
         <div class="digitales-catigories-two">
-          <div ></div>
-          <div ></div>
+          <div >SMS</div>
+          <div >App y Web</div>
         </div>
       </div>
     </div>
     <!-- Hand image section -->
     <div class="info-section-right">
       <img src="../img/hand-mockup.png">
-      <div class="phone-picture-slider" style="background-image: url('img/phone-girl-mainScreen-placeholder.png'); background-position: bottom right 30px;">
+      <div class="phone-picture-slider" style="background-image: url('./img/conectamos.jpg'); background-position: bottom ;">
       </div>
     </div>
 

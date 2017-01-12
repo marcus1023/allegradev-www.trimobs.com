@@ -10,7 +10,7 @@
 
 }
 .incio-info-box h1{
-  width: 550px;
+  width: 600px;
 }
 .incio-inner-box{
   display: flex;
@@ -53,6 +53,9 @@
 }
 
 /*digitales CSS*/
+.digitales-options-outer{
+  height: 370px;
+}
 .digitales-options-box{
   width: 100%;
   display: flex;
@@ -87,14 +90,51 @@ margin-bottom: 20px;
   height: 15px;
 }
 .digitales-b-border{
-  border-bottom: 3px solid #e37401;
+  border-bottom: 3px solid #e37401 !important;
+}
+.digitales-options-one, .digitales-options-two  {
+  border-bottom: 3px solid black;
 }
 .digitales-catigories-one{
   display: flex;
   width: 100%;
 }
 .digitales-catigories-one div{
-  background: red;
   display: flex;
+  justify-content: center;
   width: 50%;
+}
+.digitales-catigories-one div ul{
+  padding-bottom: 20px;
+}
+.digitales-catigories-one div li{
+  color: rgba(255,255,255, .7);
+  padding: 10px;
+  text-align: center;
+}
+.digitales-catigories-one div li:hover{
+  color: rgba(255,255,255, 1);
+}
+.digitales-catigories-two{
+  display: flex;
+  width: 100%;
+}
+.digitales-catigories-two div{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.digitales-catigories-two div ul{
+  padding-bottom: 20px;
+}
+.digitales-catigories-two div{
+  color: rgba(255,255,255, .7);
+  padding: 10px;
+  text-align: center;
+}
+.digitales-catigories-two div:hover{
+  color: rgba(255,255,255, 1);
+}
+.digitales-catigories-two{
+  display: none;
 }

@@ -1,0 +1,23 @@
+{
+  "name": "allegradev-www.trimobs.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "jquery-background-video": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcus1023/allegradev-www.trimobs.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcus1023/allegradev-www.trimobs.com/issues"
+  },
+  "homepage": "https://github.com/marcus1023/allegradev-www.trimobs.com#readme",
+  "description": ""
+}

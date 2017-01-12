@@ -18,4 +18,24 @@ $("#test").hover(function(){
     $('.burger-li').css("background-color", "white");
 });
 
+$( ".digitales-options-one" ).click(function() {
+  $('.digitales-catigories-two').toggleClass( "shower");
+  $('.digitales-catigories-one').toggleClass( "hider");
+  $('.digitales-options-one').toggleClass( "digitales-b-border");
+  $('.digitales-options-two').toggleClass( "digitales-b-border");
+});
+
+$( ".digitales-options-two" ).click(function() {
+
+  $('.digitales-catigories-two').toggleClass( "shower");
+  $('.digitales-catigories-one').toggleClass( "hider");
+  $('.digitales-options-two').toggleClass( "digitales-b-border");
+  $('.digitales-options-one').toggleClass( "digitales-b-border");
+});
+
+
+
+
+
+
 });

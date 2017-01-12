@@ -20,4 +20,6 @@ angular.module('trimobile',  ['ui.router'])
 
         $urlRouterProvider
             .otherwise('/');
+
+
     });
