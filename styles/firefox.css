@@ -1,0 +1,42 @@
+@-moz-document url-prefix() {
+  .video-container{
+    height: auto;
+    margin-top: -30px;
+  }
+  #glass{
+    width: 2000px !important;
+  }
+  .side-menu{
+    margin-top: -50px;
+  }
+  }
+
+
+@media screen and ( max-width: 1550px){
+  @-moz-document url-prefix() {
+    .side-menu{
+      z-index: 110;
+      display: none;
+      /*position: absolute;*/
+      /*top:0;*/
+      min-width: 250px;
+      /*height: 100%;*/
+      background: #e37401;
+      margin-left: -70px;
+      margin-top: -50px;
+    }
+    .side-menu-full span{
+    margin-left: 30px;
+    }
+    .video-container{
+      position: fixed;
+        width: 100%;
+        overflow:hidden;
+        display:block;
+        /*height: 100%;*/
+        min-height: 300px;
+    }
+    #glass{
+      width: 1550px;
+    }
+  }

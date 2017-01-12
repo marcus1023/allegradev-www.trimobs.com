@@ -30,16 +30,14 @@
 </section> -->
 
 <section class="home-full-body">
-
   <section class="video-container">
     <video loop muted autoplay poster="img/dev-mountain-true-img.png" id="glass" class="fullscreen-bg__video">
         <source src="../video/13299272.mp4" type="video/mp4">
     </video>
   </section>
-
   <div class="main-header-container">
-    <div  ng-click="isCollapsed = !isCollapsed" id="test" class="main-hamburger-menu main-header-img">
-      <ul>
+    <div id="test" class="main-hamburger-menu main-header-img">
+      <ul >
         <li class="burger-li"></li>
         <li class="burger-li"></li>
         <li class="burger-li"></li>
@@ -47,44 +45,34 @@
     </div>
     <a href="./index.html"><img  class=" main-logo main-header-img" src="./img/logo-150x41.png" /></a>
   </div>
+
   <section class="home-section-main">
     <section id="side-menu" class="side-menu">
       <div class="side-menu-full">
         <img  ui-sref="home"  src="img/menu-logo-1.png">
         <ul>
           <page-links></page-links>
-        </ul>
       </div>
     </section>
-    <!-- left side nav bar -->
-    <div class="scroller-nav">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <!-- Scroller Section -->
-    <div class="info-section-left ">
-      <div class="first-scroll">
-        <div class="inner-scroll-div">
-          <h1>¡Bienvenidos los que crean!</h1>
-          <p>En Trimobile diseñamos experiencias multiplataforma. Trabajamos con los mejores operadores móviles brindando diariamente contenido premium a miles de personas en todo Latinoamerica 🙂</p>
-          <button> <img src="img/download-icon copy.png">Descubre mas</button>
-        </div>
 
+    <div class="incio-info-box ">
+        <h1>¡Bienvenidos los que crean!</h1>
+      <div class="incio-inner-box">
+        <p>En Trimobile diseñamos experiencias multiplataforma. Trabajamos con los mejores operadores móviles brindando diariamente contenido premium a miles de personas en todo Latinoamerica 🙂</p>
+        <button> <img src="img/download-icon copy.png">Descubre mas</button>
       </div>
     </div>
     <!-- Hand image section -->
     <div class="info-section-right">
-      <img src="../img/hand-mockup.png">
-      <div class="phone-picture-slider" style="background-image: url('img/phone-girl-mainScreen-placeholder.png'); background-position: bottom right 30px;">
+      <img src="./img/hand-mockup.png">
+      <div class="phone-picture-slider" style="background-image: url('./img/conectamos.jpg'); background-position: bottom;">
       </div>
     </div>
 
   </section>
+
 </section>
+
 
 </main>
 
@@ -102,7 +90,7 @@
 <script src="./js/controllers/mainController.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/directives/page-links-dir.js"></script>
-
+<script src="./js/directives/home-img-title.js"></script>
 
 </body>
 </html>

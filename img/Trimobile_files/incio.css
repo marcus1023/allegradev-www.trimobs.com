@@ -52,14 +52,7 @@
   margin:  40px 20px 20px 20px;
 }
 
-
-
-
-
 /*digitales CSS*/
-
-
-
 .digitales-options-outer{
   height: 370px;
 }
@@ -144,92 +137,4 @@ margin-bottom: 20px;
 }
 .digitales-catigories-two{
   display: none;
-}
-
-
-
-
-
-/*NOSOTROS css*/
-
-
-
-.nosotros-content p{
-  font-weight: 200 ;
-}
-.nosotros-content span{
-  color: white;
-  font-weight: 400 ;
-  font-style: italic;
-  transition: all .5s;
-}
-.nosotros-content span:hover{
-  color: #e37401;
-}
-
-
-
-
-
-/*estemos CSS*/
-
-.estemos-content h1 span{
-  font-weight: 500;
-}
-.inner-contact-form-submit{
-  padding: 8px 12px !important;
-  width: 120px !important;
-}
-.nosotros-form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.nosotros-form p{
-font-size: 1rem;
-}
-.inner-contact-form-double{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.inner-contact-form-double input{
-  background: rgba(0,0,0, .8);
-  border: 2px solid black;
-  color: white;
-  font-size: 1.1rem;
-  padding: 10px 0px;
-  border-radius: 5px;
-  margin: 10px;
-  width: 45%;
-}
-.inner-contact-form-single {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.inner-contact-form-single input{
-  background: rgba(0,0,0, .8);
-  border: 2px solid black;
-  color: white;
-  font-size: 1.1rem;
-  padding: 10px 0px;
-  border-radius: 5px;
-  margin: 10px;
-  width: 94%;
-}
-::-webkit-input-placeholder {
-   padding-left: 10px;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   padding-left: 10px;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   padding-left: 10px;
-}
-
-:-ms-input-placeholder {
-   padding-left: 10px;
 }

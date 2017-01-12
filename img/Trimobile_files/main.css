@@ -6,20 +6,10 @@ main{
   z-index: 110;
   display: none;
   /*position: absolute;*/
-  min-width: 280px;
+  min-width: 250px;
   height: 100vh;
   background: #e37401;
-  margin-left: -130px;
-}
-.side-menu::-moz{
-  z-index: 110;
-  display: none;
-  /*position: absolute;*/
-  min-width: 280px;
-  height: 90vh;
-  background: #e37401;
-  margin-top: -50px;
-  margin-left: -130px;
+  margin-left: -50px;
 }
 .side-menu-full{
   height: 100%;
@@ -36,7 +26,7 @@ main{
   width: 100%;
 }
 .side-menu-full span{
-margin-left: 60px;
+margin-left: 30px;
 }
 .side-menu-full li{
   font-weight: bold;
@@ -74,27 +64,3 @@ margin-left: 60px;
 /*.hider{
   display: none;
 }*/
-
-
-@media screen and ( max-width: 1550px){
-  .side-menu{
-    z-index: 110;
-    display: none;
-    /*position: absolute;*/
-    min-width: 250px;
-    height: 100vh;
-    background: #e37401;
-    margin-left: -50px;
-  }
-  .side-menu-full span{
-  margin-left: 30px;
-  }
-  }
-
-
-
-
-
-
-
-/* for FIREFOX*/
